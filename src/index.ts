@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fs from "node:fs/promises";
 import { pkgUp } from "pkg-up";
 import { table } from "table";
