@@ -3,7 +3,9 @@
   "name": "your-deps-authors",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "bin": {
+    "your-deps-authors": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "lint": "run-p lint:*",
@@ -14,7 +16,9 @@
     "fix:prettier": "npm run lint:prettier -- --write .",
     "fix:eslint": "npm run lint:eslint -- --fix"
   },
-  "keywords": [],
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "author": {
     "name": "Sosuke Suzuki",
