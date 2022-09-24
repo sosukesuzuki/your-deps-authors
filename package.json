@@ -20,7 +20,7 @@
     "email": "aosukeke@gmail.com"
   },
   "volta": {
-    "node": "16.17.1"
+    "node": "18.9.1"
   },
   "devDependencies": {
     "@types/node": "^18.7.20",
