@@ -65,3 +65,9 @@ $ npx your-deps-authors
 ╚══════════════════════════════════╧═══════════════════╧════════════════════╝
 
 ```
+
+## Release
+
+```
+node ./scripts/release.js --release=minor
+```
